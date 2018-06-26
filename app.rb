@@ -30,7 +30,7 @@ class App < Sinatra::Base
     elsif {params[:operation]} = 'divide'
       @num1 / @num2
     else {params[:operation]} = 'subtract'
-
+      @num1 - @num2 
   end
 
 end
