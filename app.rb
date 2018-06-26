@@ -28,7 +28,7 @@ class App < Sinatra::Base
       @num1 + @num2
     when 'multiply'
       @num1 * @num2
-    elsif {params[:operation]} == 'divide'
+    when 'divide'
       @num1 / @num2
     else {params[:operation]} == 'subtract'
       @num1 - @num2
